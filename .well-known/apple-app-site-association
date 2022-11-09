@@ -1,0 +1,46 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "N822YDZ7MV.uk.myhealthcare.app.dev",
+        "paths": ["/reset-password", "/payment-success", "/payment-cancelled"]
+      },
+      {
+        "appIDs": ["N822YDZ7MV.uk.myhealthcare.app.dev"],
+        "components": [
+          {
+            "/": "/reset-password"
+          },
+          {
+            "/": "/payment-success"
+          },
+          {
+            "/": "/payment-cancelled"
+          }
+        ]
+      },
+      {
+        "appID": "N822YDZ7MV.uk.myhealthcare.app.uat",
+        "paths": ["/reset-password", "/payment-success", "/payment-cancelled"]
+      },
+      {
+        "appIDs": ["N822YDZ7MV.uk.myhealthcare.app.uat"],
+        "components": [
+          {
+            "/": "/reset-password"
+          },
+          {
+            "/": "/payment-success"
+          },
+          {
+            "/": "/payment-cancelled"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["N822YDZ7MV.uk.myhealthcare.app.dev", "N822YDZ7MV.uk.myhealthcare.app.uat"]
+  }
+}
